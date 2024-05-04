@@ -9,4 +9,6 @@ function Zoo(foodForDog :number, foodForCat) :string {
 
     return `${Total} lv.`;
 }
-Zoo(5, 5);
+let priceZoo :string = Zoo(5, 5);
+console.log(priceZoo);
+
